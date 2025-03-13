@@ -1,0 +1,247 @@
+.container1 { 
+    width: fit-content;
+    margin: 20px;
+}
+.container2 { 
+    width: fit-content;
+    margin: 20px;
+}
+
+.card1 {
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.profilecard1 {
+    width: 170px;
+    height: 170px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.card1h5 {
+    color: #fff;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.card1p {
+    text-align: center;
+    color: lightgray;
+    margin: 0;
+    font-size: 10px;
+}
+
+.timerangep {
+    color: lightgray;
+    margin: 0;
+    font-size: 10px;
+}
+
+.timerange {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.inputrange {
+    accent-color: #8e13b1;
+    height: 3px;
+    margin: 4px 20px;
+}
+
+.flexicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.playbutton {
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+}
+
+i {
+    color: #fff;
+    align-items: center;
+}
+
+.card2flex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.iconp {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.rangevalue {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.inputrange2 {
+    accent-color: #8e13b1;
+    height: 3px;
+    width: 50%;
+    margin: 4px 20px;
+}
+
+.card2 {
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.card2p {
+    color: lightgray;
+    margin: 0;
+    margin-left: 5px;
+    font-size: 10px;
+}
+/* //Container 2 */
+.container2 { 
+    display: flex;
+    flex-direction:column                                                               ;
+    margin: 20px;
+}
+.cont2card1-row{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-around;
+    background-color: black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.cont2card1h5{
+    color: #fff;
+margin: 0;
+}
+.cont2card1p{
+    color: #fff;
+margin: 0;
+}
+.iconwidth{
+    margin-left: 50px;
+    margin: auto;
+}
+.merge{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.profilecard2 {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.alignrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+}
+.aligncolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: fit-content;
+}
+/* //container3 */
+.container3 { 
+    display: flex;
+    flex-direction:row;                                                               
+}
+.container4 { 
+    display: flex;                                                              
+}
+.cont3card1{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: black;
+    height: fit-content;
+}
+.cont3card3{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    background-color: black;
+    height: fit-content;
+}
+.followersFollowing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.follower{
+    display: flex;
+    flex-direction: column;
+  margin: 0;
+}
+.profilecard3 {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+.profilecard4 {
+    width: 170px;
+    height: 170px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+.profilecard5 {
+    width: 80px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 20px;
+}
+p{
+    color: #fff;
+    margin-right: 5px;
+    text-align: center;
+}
+.cont4card1{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    background-color: black;
+    height: fit-content;
+}
+.cont4aligncolumn{
+    display: flex;
+    flex-direction: column;
+}
