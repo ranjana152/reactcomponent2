@@ -1,8 +1,4 @@
-.container1 { 
-    width: fit-content;
-    margin: 20px;
-}
-.container2 { 
+.container1 {
     width: fit-content;
     margin: 20px;
 }
@@ -26,7 +22,7 @@
 .card1h5 {
     color: #fff;
     margin: 0;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .card1p {
@@ -50,7 +46,7 @@
 }
 
 .inputrange {
-    accent-color: #8e13b1;
+    accent-color: rgb(56, 41, 204);
     height: 3px;
     margin: 4px 20px;
 }
@@ -69,7 +65,7 @@
 }
 
 i {
-    color: #fff;
+    color: rgb(56, 41, 204);
     align-items: center;
 }
 
@@ -77,6 +73,7 @@ i {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    gap: 10px;
 }
 
 .iconp {
@@ -92,18 +89,22 @@ i {
 }
 
 .inputrange2 {
-    accent-color: #8e13b1;
+    /* accent-color: #8e13b1; */
     height: 3px;
     width: 50%;
     margin: 4px 20px;
+    accent-color: rgb(56, 41, 204);
+
 }
 
 .card2 {
     width: 200px;
+    /* height: 304px; */
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    gap: 10px;
     background-color: rgb(0, 0, 0);
 }
 
@@ -113,14 +114,17 @@ i {
     margin-left: 5px;
     font-size: 10px;
 }
+
 /* //Container 2 */
-.container2 { 
+.container2 {
     display: flex;
-    flex-direction:column                                                               ;
+    flex-direction: column;
     margin: 20px;
+    margin-bottom: 5px;
 }
-.cont2card1-row{
-    width: 250px;
+
+.cont2card1-row {
+    width: 230px;
     display: flex;
     flex-direction: row;
     margin: 10px;
@@ -129,88 +133,112 @@ i {
     margin-bottom: 20px;
     border-radius: 20px;
 }
-.cont2card1h5{
+
+.cont2card1h5 {
     color: #fff;
-margin: 0;
+    margin: 0;
 }
-.cont2card1p{
+
+.cont2card1p {
     color: #fff;
-margin: 0;
+    margin: 0;
 }
-.iconwidth{
+
+.iconwidth {
     margin-left: 50px;
     margin: auto;
 }
-.merge{
+
+.merge {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
 }
+
 .profilecard2 {
     width: 50px;
     height: 50px;
     padding: 10px;
     border-radius: 20px;
 }
-.alignrow{
+
+.alignrow {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: fit-content;
 }
-.aligncolumn{
+
+.aligncolumn {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: fit-content;
 }
+
 /* //container3 */
-.container3 { 
+.container3 {
     display: flex;
-    flex-direction:row;                                                               
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: fit-content;
 }
-.container4 { 
-    display: flex;                                                              
-}
-.cont3card1{
-    width: 200px;
+
+.container4 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: fit-content;
+}
+
+.cont3card1 {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
     border-radius: 20px;
     margin: 20px;
     background-color: black;
     height: fit-content;
+    padding: 40px;
+    padding-top: 0px;
+    gap: 10px;
 }
-.cont3card3{
+
+.cont3card3 {
     width: 200px;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     border-radius: 20px;
     padding-bottom: 20px;
-    margin: 20px;
     background-color: black;
     height: fit-content;
 }
-.followersFollowing{
+
+.followersFollowing {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
-.follower{
+
+.follower {
     display: flex;
     flex-direction: column;
-  margin: 0;
+    margin: 0;
 }
+
 .profilecard3 {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     padding: 10px;
     border-radius: 50px;
-    text-align: center;
+    margin-left: 0px;
 }
+
 .profilecard4 {
     width: 170px;
     height: 170px;
@@ -218,30 +246,140 @@ margin: 0;
     border-radius: 20px;
     text-align: center;
 }
+
 .profilecard5 {
     width: 80px;
     height: 100px;
     padding: 15px;
     border-radius: 20px;
 }
-p{
+
+p {
     color: #fff;
+    margin: 0;
     margin-right: 5px;
     text-align: center;
+    font-size: 14px;
 }
-.cont4card1{
-    width: 200px;
+
+/* Container4// */
+.cont4card1 {
+    width: 250px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 20px;
-    padding-bottom: 20px;
-    margin: 20px;
+    padding: 20px;
+
     background-color: black;
     height: fit-content;
 }
-.cont4aligncolumn{
+
+.cont4card1h5 {
+    color: #fff;
+    margin: 0;
+    text-align: left;
+}
+
+.cont4card1p {
+    color: #fff;
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+}
+
+.profilecard6 {
+    width: 100px;
+    height: 100px;
+    /* padding: 15px; */
+    border-radius: 5px;
+}
+
+.cont4aligncolumn {
     display: flex;
     flex-direction: column;
+    width: fit-content;
+}
+
+.cont4card2 {
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin: 20px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 10px;
+}
+
+.cont4card2flex {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.cont4card2img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.cont4card2details {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0; */
+}
+
+.cont4card2det2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.cont4card2h5 {
+    color: #fff;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.button {
+    background: rgb(56, 41, 204);
+    background: linear-gradient(90deg, rgba(56, 41, 204, 1) 0%, rgba(128, 84, 238, 1) 71%, rgba(172, 82, 255, 1) 100%);
+    color: #fff;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: rgb(56, 41, 204);
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.weather {
+    width: fit-content;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+.weatherp {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.weathericon {
+    color: goldenrod;
+    align-items: center;
 }
