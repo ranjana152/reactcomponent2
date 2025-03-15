@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from './button';
 function Card2({ image1, head1, icon1, text1, text2 }) {
     return (
         <div className='card2'>

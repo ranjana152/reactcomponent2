@@ -11,6 +11,10 @@ import { FcGoogle } from "react-icons/fc";
 import { IoWallet } from "react-icons/io5";
 import { IoIosRadioButtonOff } from "react-icons/io";
 import { GoFileDirectoryFill } from "react-icons/go";
+import { IoIosRadioButtonOn } from "react-icons/io";
+import { RiVisaLine } from "react-icons/ri";
+import { SiMastercard } from "react-icons/si";
+import { BsPaypal } from "react-icons/bs";
 import profilecard from '../Assets/cardprofile.jpg'
 import Card2 from './card2';
 import Card3 from './card3';
@@ -19,7 +23,7 @@ function Container1() {
         <div className='container1'>
             <Card1 image1={profilecard} head1='FIND MY' text1='Dababy' icon1={<FaStepBackward />} icon2={<FaBackward />} icon3={<FaPlay />} icon4={<FaForward />} icon5={<FaStepForward />} />
             <Card2 image1={<GoFileDirectoryFill />} head1='Files' icon1={<CiFileOn />} text1='design.ps' text2='50%' />
-            <Card3 image1={<IoWallet />} head1='New Payment Method' icon1={<IoIosRadioButtonOff />} icon2={<FcGoogle />}/>
+            <Card3 image1={<IoWallet />} head1='New Payment Method' icon1={<IoIosRadioButtonOn />} icon3={<IoIosRadioButtonOff />} icon2={<RiVisaLine />} icon4={<SiMastercard />} icon5={<BsPaypal />} icon6={<FcGoogle />}/>
         </div>
     );
 }

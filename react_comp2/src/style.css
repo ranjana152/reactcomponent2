@@ -80,6 +80,7 @@ i {
     display: flex;
     flex-direction: row;
     margin-left: 15px;
+    margin-right: 20px;
 }
 
 .rangevalue {
@@ -308,7 +309,7 @@ p {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    margin: 20px;
+    margin: 10px;
     background-color: rgb(0, 0, 0);
     padding-top: 10px;
 }
@@ -353,6 +354,7 @@ p {
     height: 40px;
     border-radius: 10px;
     box-shadow: rgb(56, 41, 204);
+    overflow: hidden;
 }
 
 .container5 {
@@ -382,4 +384,276 @@ p {
 .weathericon {
     color: goldenrod;
     align-items: center;
+}
+
+.togglealignRow {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    border-radius: 20px;
+    top: 320px;
+    margin-left: -130px;
+}
+
+.toggleclass {
+    display: flex;
+    flex-direction: column;
+}
+
+.toggleOn {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.ratingalignrow {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 25px 15px 15px;
+    border-radius: 20px;
+    padding: 10px 5px;
+    background-color: rgb(0, 0, 0);
+}
+
+.reviewcol {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.reviewrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.ratingp {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ratingicon {
+    color: goldenrod;
+    margin: auto;
+}
+
+.countrating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.countrating2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.countp {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.counticon {
+    color: goldenrod;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.threeicons {
+    position: absolute;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 450px;
+    margin-left: -120px;
+    border-radius: 10px;
+    padding: 20px 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+.searchcontainer {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 1px 1px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.searchicon {
+    color: #fff;
+    padding: 15px;
+}
+
+.filtericon {
+    color: #fff;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+
+.fillcontainer {
+    width: 50px;
+    height: 50px;
+    background: rgb(56, 41, 204);
+    background: linear-gradient(90deg, rgba(56, 41, 204, 1) 0%, rgba(128, 84, 238, 1) 71%, rgba(172, 82, 255, 1) 100%);
+    border-radius: 20px;
+    margin: 10px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 270px;
+    display: flex;
+    flex-direction: row;
+}
+
+.inputsearch {
+    color: #fff;
+    background-color: black;
+    outline: none;
+    border: none;
+    margin-right: 90px;
+}
+
+.cardicon {
+
+    font-size: 25px;
+}
+
+.filter {
+    position: absolute;
+    width: 200px;
+    display: flex;
+    top: 550px;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: -230px;
+    border-radius: 20px;
+    padding: 20px 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.pricehead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputrange3 {
+    height: 3px;
+    width: 90%;
+    margin: 4px 20px;
+    accent-color: rgb(56, 41, 204);
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+}
+
+.colorsrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.totalrow {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.addnew {
+    position: absolute;
+    width: 190px;
+    display: flex;
+    top: 550px;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 20px 15px;
+    background-color: rgb(0, 0, 0);
+}
+
+.text {
+    outline: none;
+    border: none;
+    background-color: rgb(32, 29, 29);
+    width: fit-content;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px;
+
+}
+
+.text2 {
+    outline: none;
+    border: none;
+    background-color: rgb(32, 29, 29);
+    width: 60px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px;
+    margin-right: 20px;
+
+}
+
+.fcontainer {
+    width: 60px;
+    height: 60px;
+    background: rgb(56, 41, 204);
+    background: linear-gradient(90deg, rgba(56, 41, 204, 1) 0%, rgba(128, 84, 238, 1) 71%, rgba(172, 82, 255, 1) 100%);
+    border-radius: 50px;
+    margin: 10px;
+    margin-top: 5px;
+
+}
+
+.filicon {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+
+.cont3card3final {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* position: absolute; */
+    border-radius: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    height: fit-content;
+    top: 950px;
+    margin-right: 10px;
+}
+
+.profilecard7 {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
 }
