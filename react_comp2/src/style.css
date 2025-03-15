@@ -26,7 +26,7 @@
 }
 
 .card1p {
-    text-align: center;
+    /* text-align: center; */
     color: lightgray;
     margin: 0;
     font-size: 10px;
@@ -154,6 +154,7 @@ i {
     display: flex;
     flex-direction: column;
     margin: 0;
+    margin-top: 20px;
     padding: 0;
 }
 
@@ -630,7 +631,7 @@ p {
 
 .filicon {
     color: #fff;
-    font-size: 40px;
+    font-size: 25px;
     position: absolute;
     margin-top: 17px;
     margin-left: 17px;
@@ -640,6 +641,7 @@ p {
     width: 170px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
     /* position: absolute; */
     border-radius: 20px;
@@ -656,4 +658,48 @@ p {
     padding: 15px;
     border-radius: 20px;
     text-align: center;
+}
+
+.filtericon2 {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.filtericon3 {
+    color: #fff;
+}
+
+.fillcontainer2 {
+    width: 40px;
+    height: 40px;
+    background: rgb(56, 41, 204);
+    background: linear-gradient(90deg, rgba(56, 41, 204, 1) 0%, rgba(128, 84, 238, 1) 71%, rgba(172, 82, 255, 1) 100%);
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fillcontainer4 {
+    width: 20px;
+    height: 20px;
+    background: rgb(8, 61, 38);
+    border-radius: 50px;
+    margin: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fillcontainer3 {
+    width: 20px;
+    height: 20px;
+    background: rgb(132, 39, 39);
+    border-radius: 50px;
+    margin: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
 }

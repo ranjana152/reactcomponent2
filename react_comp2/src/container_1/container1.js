@@ -22,7 +22,7 @@ function Container1() {
     return (
         <div className='container1'>
             <Card1 image1={profilecard} head1='FIND MY' text1='Dababy' icon1={<FaStepBackward />} icon2={<FaBackward />} icon3={<FaPlay />} icon4={<FaForward />} icon5={<FaStepForward />} />
-            <Card2 image1={<GoFileDirectoryFill />} head1='Files' icon1={<CiFileOn />} text1='design.ps' text2='50%' />
+            <Card2 image1={<GoFileDirectoryFill />} head1='Files' icon1={<CiFileOn />} text1='design.ps' text2='50%' text3='resume.docx' text4='32%' text5='message.docx' text6='21%' />
             <Card3 image1={<IoWallet />} head1='New Payment Method' icon1={<IoIosRadioButtonOn />} icon3={<IoIosRadioButtonOff />} icon2={<RiVisaLine />} icon4={<SiMastercard />} icon5={<BsPaypal />} icon6={<FcGoogle />}/>
         </div>
     );

@@ -1,7 +1,8 @@
 import React from 'react';
-import Icon2 from '../container5/icon2';
-import { FaPlay } from "react-icons/fa6";
-function Card1({ image1, head1, text1 }) {
+import Icon3 from '../container_1/icon3';
+import { RxCross2 } from "react-icons/rx";
+import { TiTick } from "react-icons/ti";
+function Card2({ image1, head1, text1 }) {
     return (
         <div className='cont2card1-row'>
             <img src={image1} className='profilecard2'></img>
@@ -9,9 +10,9 @@ function Card1({ image1, head1, text1 }) {
                 <h5 className='card1h5'>{head1}</h5>
                 <p className='card1p'>{text1}</p>
             </div>
-            <Icon2 icon1={<FaPlay />} />
+            <Icon3 icon1={<RxCross2 />} icon2={<TiTick />}/>
         </div>
     );
 }
 
-export default Card1;
+export default Card2;

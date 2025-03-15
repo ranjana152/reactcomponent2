@@ -12,6 +12,7 @@ import Greater from './greaterlesser';
 import Finalcard from './finalcard1';
 import shirt from '../Assets/shirt.png'
 import hustle from '../Assets/hustle.png'
+import Finalcard1 from './finalcard2';
 const colors = [
     {
         color: 'black',
@@ -74,7 +75,7 @@ function Container5() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', position: 'absolute', top: '940px', marginLeft: '-100px' }}>
                 <Finalcard image1={shirt} head1='NEW COLLECTION' text1='Summer outfits' />
-                <Finalcard image1={hustle} head1='NEW COLLECTION' text1='Summer outfits' />
+                <Finalcard1 image1={hustle} head1='Coffe mug' text1='Hustle edition' text2='$7.9' />
             </div>
         </div>
 
